@@ -1,5 +1,7 @@
 export default () => (
-  <footer className="fixed bottom-0 left-0 bg-black white w-100 pa1">
-    {"#sześć-błota-stóp"}
+  <footer className="fixed bottom-0 bg-black-80 white w-100 pa1">
+    <span className="flex justify-end">
+      {"#sześć-błota-stóp"}
+    </span>
   </footer>
 );
