@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 
 export default () => (
-  <Layout title="Yellow">
+  <Layout title="Żółty">
     <div className="vh-100 dt w-100 bg-yellow">
       <div className="dtc v-mid tc white ph3 ph4-l">
         <h1 className="f4 f2-m f-subheadline-l fw6 tc">Żółty</h1>
