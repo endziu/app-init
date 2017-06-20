@@ -1,12 +1,17 @@
-const Triangle = () => (
-  <div className="vh-100 dt w-100 bg-white">
-    <div className="dtc v-mid tc black-80 ph3 ph4-l">
+const Triangle = ({
+  width = "32",
+  height = "32",
+  centered = false,
+  color = "black"
+}) => (
+  <div className={centered && "vh-100 dt w-100 bg-white"}>
+    <div className={centered && "dtc v-mid tc black-80 ph3 ph4-l"}>
       <svg
         viewBox="0 0 16 16"
-        width="260"
-        height="260"
+        width={width}
+        height={height}
         fill="none"
-        stroke="currentcolor"
+        stroke={color}
         className="rot"
       >
         <path d="M3 1.5 L3 14.5 L14.258330249197702 8 z" />

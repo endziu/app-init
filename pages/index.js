@@ -3,6 +3,6 @@ import Triangle from "../components/Triangle";
 
 export default () => (
   <Layout title="trzy kolory">
-    <Triangle />
+    <Triangle width="160" height="160" centered={true} />
   </Layout>
 );
