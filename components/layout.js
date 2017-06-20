@@ -23,13 +23,13 @@ export default ({ children, title = "This is the default title" }) => (
           </a>
         </Link>
         <Link href="/green">
-          <a className={"white no-underline mr2 hover-green"}>Green</a>
+          <a className={"white no-underline mr2 hover-green"}>Zieleń</a>
         </Link>
         <Link href="/blue">
-          <a className={"white no-underline mr2 hover-blue"}>Blue</a>
+          <a className={"white no-underline mr2 hover-blue"}>Błękit</a>
         </Link>
-        <Link href="/gold">
-          <a className={"white no-underline mr2 hover-gold"}>Gold</a>
+        <Link href="/yellow">
+          <a className={"white no-underline mr2 hover-gold"}>Żółć</a>
         </Link>
       </nav>
     </header>
