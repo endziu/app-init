@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import Head from 'next/head'
 
-const style_navLink = 'black-80 no-underline underline-hover mr2'
+const style_navLink = 'white no-underline underline-hover mr2'
 
 export default ({ children, title = 'This is the default title' }) => (
-  <div className='f5'>
+  <div>
     <Head>
       <title>{ title }</title>
       <meta charSet='utf-8' />
@@ -12,8 +12,20 @@ export default ({ children, title = 'This is the default title' }) => (
       <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
     </Head>
 
-    <header className='fixed top-1 left-1 pa2'>
-      <nav className='f3'>
+    <header className='fixed top-0 left-0 pa1 bg-black w-100'>
+      <nav className='f4 flex items-center'>
+        <Link href='/'>
+          <a className='dim mr2 ph1'>
+            <svg 
+              viewBox="0 0 24 24"
+              width="32"
+              height="32"
+              fill="white"
+            >
+              <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z " />
+            </svg>
+          </a>
+        </Link>
         <Link href='/green'><a className={style_navLink}>Green</a></Link>
         <Link href='/blue'><a className={style_navLink}>Blue</a></Link>
         <Link href='/gold'><a className={style_navLink}>Gold</a></Link>
@@ -22,7 +34,7 @@ export default ({ children, title = 'This is the default title' }) => (
 
     { children }
 
-    <footer className='fixed bottom-1 right-1'>
+    <footer className='fixed bottom-0 left-0 bg-black white w-100 pa1'>
       {'#sześć-błota-stóp'}
     </footer>
   </div>
