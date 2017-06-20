@@ -20,5 +20,6 @@ export default ({ children, title = "This is the default title" }) => (
     {children}
 
     <Footer />
+
   </div>
 );
