@@ -1,4 +1,4 @@
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Triangle from "../components/Triangle";
 
 export default () => (
