@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import Head from 'next/head'
 
-const style_navLink = 'white no-underline underline-hover mr2'
-
 export default ({ children, title = 'This is the default title' }) => (
   <div>
     <Head>
@@ -26,9 +24,9 @@ export default ({ children, title = 'This is the default title' }) => (
             </svg>
           </a>
         </Link>
-        <Link href='/green'><a className={style_navLink}>Green</a></Link>
-        <Link href='/blue'><a className={style_navLink}>Blue</a></Link>
-        <Link href='/gold'><a className={style_navLink}>Gold</a></Link>
+        <Link href='/green'><a className={'white no-underline mr2 hover-green'}>Green</a></Link>
+        <Link href='/blue'><a className={'white no-underline mr2 hover-blue'}>Blue</a></Link>
+        <Link href='/gold'><a className={'white no-underline mr2 hover-gold'}>Gold</a></Link>
       </nav>
     </header>
 
