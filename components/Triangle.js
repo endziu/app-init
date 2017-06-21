@@ -19,7 +19,11 @@ const Triangle = ({
     </div>
     <style jsx>{`
     .rot {
-      transform: rotate( -15deg );
+      transform: rotate( -20deg );
+      transition: transform 1s;
+    }
+    .rot:hover {
+      transform: rotate(690deg);
     }
   `}</style>
   </div>
