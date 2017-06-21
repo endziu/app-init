@@ -1,11 +1,11 @@
 const Triangle = ({
-  width = "32",
-  height = "32",
+  width = '32',
+  height = '32',
   centered = false,
-  color = "black"
+  color = 'black'
 }) => (
-  <div className={centered && "vh-100 dt w-100 bg-white"}>
-    <div className={centered && "dtc v-mid tc black-80 ph3 ph4-l"}>
+  <div className={centered && 'vh-100 dt w-100 bg-white'}>
+    <div className={centered && 'dtc v-mid tc black-80 ph3 ph4-l'}>
       <svg
         viewBox="0 0 16 16"
         width={width}

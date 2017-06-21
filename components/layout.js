@@ -1,9 +1,9 @@
-import Head from "next/head";
+import Head from 'next/head';
 
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from './Header';
+import Footer from './Footer';
 
-export default ({ children, title = "This is the default title" }) => (
+export default ({ children, title = 'This is the default title' }) => (
   <div>
     <Head>
       <title>{title}</title>
