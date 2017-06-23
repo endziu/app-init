@@ -2,7 +2,7 @@ import Layout from '../components/Layout';
 import Triangle from '../components/Triangle';
 
 export default () => (
-  <Layout title="trzy kolory">
+  <Layout title="app-init">
     <div className="vh-100 dt w-100 bg-image cover">
       <h1 className="dtc v-mid tc f2 f1-m f-subheadline-l fw6 bg-black-20 white">
         Hello ;)
