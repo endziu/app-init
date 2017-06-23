@@ -4,7 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 export default ({ children, title = 'This is the default title' }) => (
-  <div>
+  <div className="sans-serif">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
