@@ -18,14 +18,14 @@ const Triangle = ({
       </svg>
     </div>
     <style jsx>{`
-    .rot {
-      transform: rotate( -20deg );
-      transition: transform 1s;
-    }
-    .rot:hover {
-      transform: rotate(690deg);
-    }
-  `}</style>
+      .rot {
+        transform: rotate( -20deg );
+        transition: transform 1s;
+      }
+      .rot:hover {
+        transform: rotate(690deg);
+      }
+    `}</style>
   </div>
 );
 
